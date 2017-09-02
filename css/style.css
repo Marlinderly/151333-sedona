@@ -1,0 +1,148 @@
+body{
+	font-family: PT Sans;
+	color: black;
+	
+}
+.main-header{
+	background-color: white;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	list-style-type:none;
+}
+.sedona-discription{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.advantages{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.first-advantage,.second-advantage{
+	color:white;
+	height: 257px;
+	width: 257px;
+	background-color: #81B3D2;
+	text-align: center;
+	vertical-align: middle;
+}
+.first-advantage p::before{
+	padding:  5px 101px 30px;
+	text-align: center;
+	content: "-№1-";
+	font-size: 14px;
+	display: block;
+}
+.second-advantage p::before{
+	padding:  5px 101px 30px;
+	text-align: center;
+	content: "-№2-";
+	font-size: 14px;
+	display: block;
+}
+
+
+h3{
+	padding: 40px 45px 5px;
+	font-size: 21px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+.advantages{
+	height: 166px;
+	width: auto;
+	
+}
+.advantage{
+	width: 265px;
+	height: 265px;
+	background-color: #EEEEEE;
+}
+.third p::before{
+	content: "-№3-";
+	font-size: 15px;
+	display: block;
+	padding: 5px 102px 20px;
+}
+.fourth p::before{
+	content: "-№4-";
+	font-size: 15px;
+	display: block;
+	padding: 5px 102px 20px;
+}
+.fifth p::before{
+	content: "-№5-";
+	font-size: 15px;
+	display: block;
+	padding: 5px 102px 20px;
+}
+ p{
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+.habitation, .food, .souvenir{
+	width: 265px;
+	height: 265px;
+	background-color: white;
+}
+.habitation h3::before{
+	content: "";
+	background: url(../img/icon-1.svg) no-repeat;
+	display: block;
+	width: 80px;
+	height: 80px;
+	float: inherit;
+	padding-right: 42px;
+}
+.food h3::before{
+	content: "";
+	background: url(../img/icon-3.svg) no-repeat;
+	display: block;
+	width: 80px;
+	height: 80px;
+	float: inherit;
+	padding-right: 42px;
+}
+.souvenir h3::before{
+	content: "";
+	background: url(../img/icon-2.svg) no-repeat;
+	display: block;
+	width: 80px;
+	height: 80px;
+	float: inherit;
+	padding-right: 42px;
+}
+.offer{
+	font-size: 20px;
+}
+.offer b{
+  font-size: 30px;
+}
+.hotel-search{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	background-color: #766357;
+	width: 569px;
+	height: 86px;
+}
+form{
+	width: 569px;
+	height: 482px;
+	background-color: white;
+}
+.filter-button.button {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	width: 457px;
+	height: 58px;
+	background-color: #81B3D2;
+}

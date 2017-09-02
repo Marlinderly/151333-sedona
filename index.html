@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
   </head>
   <body>
   <header class="main-header">
@@ -19,63 +21,69 @@
 	  <main class="container">
 		  <header class="second-header">
 		      <h1 class="visually-hidden">Седона</h1>
-		      <img src="#" width="" height="" alt="Седона">
-				<div><b> Седона-небольшой городок в Аризоне,заслуживающий большего!</b></div>
+		      <img src="#" width="" height="512" alt="Седона">
+				<div class="sedona-discription"><b> Седона-небольшой городок в Аризоне,заслуживающий большего!</b></div>
 		  </header>
 		  <section>
 		      <h2 class="visually-hidden">Преимущества Седоны</h2>
-		      <p>Рассмотрим 5 причин, по которым Седона круче,чем Гранд каньон!</p>
-			  <div class="first-advantage">
-				  <img src="img/firstadvantage" alt="Настоящий городок" width="400" height="50">
+		      <p class="advantages">Рассмотрим 5 причин, по которым Седона круче,чем Гранд каньон!</p>
+			  <div class="first-advantage" id="first-advantage">
 						  <h3>Настоящий городок</h3>
-						  <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>    
+						  <p>Седона - не аттракцион <br>для туристов, там течет<br> своя жизнь</p>  
 			  </div>	
-			  <div class="advantages">
+				<img src="img/real_town.png" alt="Настоящий городок" width="513" height="255" for="first-advantage">
+			  <div class="advantages habitation">
 				  <h3>Жилье</h3>
 				  <p>Рекомендуем пожить в настоящем мотеле, как в кино!</p>
 			  </div>
-			  <div class="advantages">
+			  <div class="advantages food">
 					<h3>Еда</h3>
 				  <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
 			  </div>
-			  <div class="advantages">
+			  <div class="advantages souvenir">
 				  <h3>Сувениры</h3>
 				  <p>Не только китайского, но и местного производства</p>
 			  </div>
-			  <div class="second-advantage">
-				  <img src="#" width="400" height="50" alt="Мост дьявола">
-					<h3>Там есть мост дьявола</h3>
-					<p>Да, по нему можно пройти! Если, конечно, вы осмелитесь</p>
+			  <div class="second-advantage" id="second-advantage">
+				  <h3>Там есть мост дьявола</h3>
+					<p>Да, по нему можно<br> пройти! Если, конечно,<br> вы осмелитесь</p>
 			  </div>
-				<div class="advantages">
+				<img src="img/devils_bridge.png" width="513" height="255" alt="Мост дьявола" for=second-advantage>
+				<div class="advantage third">
 					<h3>Небольшая площадь</h3>
-					<p>Все достопримечательности находятся очень близко</p>
+					<p>Все достопримеча-<br>тельности находятся <br>очень близко</p>
 				</div>
-				<div class="advantages">
+				<div class="advantage fourth">
 					<h3>Красивая дорога</h3>
-					<p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+					<p>Ехать в Седону из <br> Лас-Вегаса совсем<br> не скучно!</p>
 				</div>
-				<div class="advantages">
+				<div class="advantage fifth">
 					<h3>Мало туристов</h3>
-					<p>Большинство едет в Гранд Каньон и толпится там</p>
+					<p>Большинство едет в <br> Гранд Каньон и <br>толпится там</p>
 				</div>
 		  </section>
-		  <section>
+		  <section class="offer">
 			  <p>
 					<b> Заитересовались? </b>
 				</p>
-				<p>Укажите предполагаемые даты поездки, и мы покажем Вам лучшие предложения гостиниц в Седоне.
+				<p>Укажите предполагаемые даты поездки,<br> и мы покажем Вам лучшие предложения гостиниц в Седоне.
 			  </p>
 			  
 		  </section > 
 			<section>
-				<button class="hotel-search" type="button">Поиск гостиницы в Седоне</button>
-				<form class="search" method="get" action="#">
+				<form class="search" method="get" action="#" >
+					<button class="hotel-search" type="button">Поиск гостиницы в Седоне</button>
 					<label>
 						<b>Дата заезда:</b><input class="date" type="text"  name="date-arrival" value="24 апреля 2016">
 					</label>
 					<label>
 						<b>Дата выезда:</b><input class="date" type="text"  name="date-departure" value="4 июля 2016">
+					</label>
+					<label>
+					взрослые<input type="number" class="adults" name="adults" value="2">
+					</label>
+					<label>
+						дети<input type="number" class="children" name="children" value="0">
 					</label>
 					<button type="submit" class="filter-button button">найти</button>
 				</form>
@@ -93,7 +101,7 @@
 				</ul>
 			</div>
 			<p class="footer-copyright">
-				<img src="#" width="" height="" alt="website by htmlacademy">
+				<img src="img/logo-htmlacademy.svg" width="205" height="45" alt="website by htmlacademy">
 		</footer>
   </body>
 </html>
